@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+body{
+    background-color: rgb(57, 11, 11);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 100px;
+    padding: 50px 50px;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+ header button{
+    border: 2px solid rgb(116, 14, 120);
+    background-color: rgb(57, 11, 11);
+    padding: 5px 35px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px rgb(23, 2, 2);
+}
+section{
+display: flex;
+justify-content: space-between;
+padding: 20px 50px;
+
+}
+section button{
+    background: linear-gradient(to left, rgb(54, 123, 175) 10%, rgb(137, 11, 32) 90%);
+    border: 1px solid white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgb(145, 143, 143) ;
+    margin-left: 80px;
+} 
+.banner-right{
+    position: relative;
+    width: 500px;
+    height: 100vh;
+
+}
+.imgdecor{
+    position: absolute;
+}
+.pos{
+   top: 50px;
+   left: -27px;
+}
+.pos2{
+    left: 10px;
+    bottom: 5px; 
+
+    top: 14px;
+}
+.rec{
+    left: 70px;
+}
+.decor{
+    left: 30px;
+    top: 30px;
+}
+footer{
+    background-color: rgb(31, 28, 28);
+    width: 100vw;
+    padding: 50px 50px;
+}
+
+div p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 15px !important;
+    white-space: pre;
+
+}
+div h1{
+    white-space: pre;
+    font-size: 50px;
+}
+footer div {
+    display: flex;
+    justify-content: space-between;
+}
+
